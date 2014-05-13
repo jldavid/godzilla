@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E43B42719223D8300405325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E43B42619223D8300405325 /* Foundation.framework */; };
+		9E43B42919223D8400405325 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E43B42819223D8400405325 /* CoreGraphics.framework */; };
+		9E43B42B19223D8400405325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E43B42A19223D8400405325 /* UIKit.framework */; };
+		9E43B43119223D8400405325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E43B42F19223D8400405325 /* InfoPlist.strings */; };
+		9E43B43319223D8400405325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E43B43219223D8400405325 /* main.m */; };
+		9E43B43719223D8400405325 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E43B43619223D8400405325 /* AppDelegate.m */; };
+		9E43B43A19223D8400405325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E43B43819223D8400405325 /* Main.storyboard */; };
+		9E43B43D19223D8400405325 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E43B43C19223D8400405325 /* ViewController.m */; };
+		9E43B43F19223D8400405325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E43B43E19223D8400405325 /* Images.xcassets */; };
+		9E43B44619223D8400405325 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E43B44519223D8400405325 /* XCTest.framework */; };
+		9E43B44719223D8400405325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E43B42619223D8300405325 /* Foundation.framework */; };
+		9E43B44819223D8400405325 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E43B42A19223D8400405325 /* UIKit.framework */; };
+		9E43B45019223D8400405325 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E43B44E19223D8400405325 /* InfoPlist.strings */; };
+		9E43B45219223D8400405325 /* GodzillaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E43B45119223D8400405325 /* GodzillaTests.m */; };
+		9E43B45D19223D9900405325 /* godzilla.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9E43B45B19223D9900405325 /* godzilla.mp3 */; };
+		9E43B45E19223D9900405325 /* godzilla.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E43B45C19223D9900405325 /* godzilla.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E43B44919223D8400405325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E43B41B19223D8300405325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E43B42219223D8300405325;
+			remoteInfo = Godzilla;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E43B42319223D8300405325 /* Godzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Godzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E43B42619223D8300405325 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E43B42819223D8400405325 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E43B42A19223D8400405325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9E43B42E19223D8400405325 /* Godzilla-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Godzilla-Info.plist"; sourceTree = "<group>"; };
+		9E43B43019223D8400405325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E43B43219223D8400405325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E43B43419223D8400405325 /* Godzilla-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Godzilla-Prefix.pch"; sourceTree = "<group>"; };
+		9E43B43519223D8400405325 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E43B43619223D8400405325 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E43B43919223D8400405325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E43B43B19223D8400405325 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E43B43C19223D8400405325 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E43B43E19223D8400405325 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9E43B44419223D8400405325 /* GodzillaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GodzillaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E43B44519223D8400405325 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9E43B44D19223D8400405325 /* GodzillaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GodzillaTests-Info.plist"; sourceTree = "<group>"; };
+		9E43B44F19223D8400405325 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E43B45119223D8400405325 /* GodzillaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GodzillaTests.m; sourceTree = "<group>"; };
+		9E43B45B19223D9900405325 /* godzilla.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = godzilla.mp3; sourceTree = "<group>"; };
+		9E43B45C19223D9900405325 /* godzilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = godzilla.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E43B42019223D8300405325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E43B42919223D8400405325 /* CoreGraphics.framework in Frameworks */,
+				9E43B42B19223D8400405325 /* UIKit.framework in Frameworks */,
+				9E43B42719223D8300405325 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E43B44119223D8400405325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E43B44619223D8400405325 /* XCTest.framework in Frameworks */,
+				9E43B44819223D8400405325 /* UIKit.framework in Frameworks */,
+				9E43B44719223D8400405325 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E43B41A19223D8300405325 = {
+			isa = PBXGroup;
+			children = (
+				9E43B42C19223D8400405325 /* Godzilla */,
+				9E43B44B19223D8400405325 /* GodzillaTests */,
+				9E43B42519223D8300405325 /* Frameworks */,
+				9E43B42419223D8300405325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E43B42419223D8300405325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E43B42319223D8300405325 /* Godzilla.app */,
+				9E43B44419223D8400405325 /* GodzillaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E43B42519223D8300405325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E43B42619223D8300405325 /* Foundation.framework */,
+				9E43B42819223D8400405325 /* CoreGraphics.framework */,
+				9E43B42A19223D8400405325 /* UIKit.framework */,
+				9E43B44519223D8400405325 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E43B42C19223D8400405325 /* Godzilla */ = {
+			isa = PBXGroup;
+			children = (
+				9E43B45B19223D9900405325 /* godzilla.mp3 */,
+				9E43B45C19223D9900405325 /* godzilla.png */,
+				9E43B43519223D8400405325 /* AppDelegate.h */,
+				9E43B43619223D8400405325 /* AppDelegate.m */,
+				9E43B43819223D8400405325 /* Main.storyboard */,
+				9E43B43B19223D8400405325 /* ViewController.h */,
+				9E43B43C19223D8400405325 /* ViewController.m */,
+				9E43B43E19223D8400405325 /* Images.xcassets */,
+				9E43B42D19223D8400405325 /* Supporting Files */,
+			);
+			path = Godzilla;
+			sourceTree = "<group>";
+		};
+		9E43B42D19223D8400405325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E43B42E19223D8400405325 /* Godzilla-Info.plist */,
+				9E43B42F19223D8400405325 /* InfoPlist.strings */,
+				9E43B43219223D8400405325 /* main.m */,
+				9E43B43419223D8400405325 /* Godzilla-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E43B44B19223D8400405325 /* GodzillaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E43B45119223D8400405325 /* GodzillaTests.m */,
+				9E43B44C19223D8400405325 /* Supporting Files */,
+			);
+			path = GodzillaTests;
+			sourceTree = "<group>";
+		};
+		9E43B44C19223D8400405325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E43B44D19223D8400405325 /* GodzillaTests-Info.plist */,
+				9E43B44E19223D8400405325 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E43B42219223D8300405325 /* Godzilla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E43B45519223D8400405325 /* Build configuration list for PBXNativeTarget "Godzilla" */;
+			buildPhases = (
+				9E43B41F19223D8300405325 /* Sources */,
+				9E43B42019223D8300405325 /* Frameworks */,
+				9E43B42119223D8300405325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Godzilla;
+			productName = Godzilla;
+			productReference = 9E43B42319223D8300405325 /* Godzilla.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E43B44319223D8400405325 /* GodzillaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E43B45819223D8400405325 /* Build configuration list for PBXNativeTarget "GodzillaTests" */;
+			buildPhases = (
+				9E43B44019223D8400405325 /* Sources */,
+				9E43B44119223D8400405325 /* Frameworks */,
+				9E43B44219223D8400405325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E43B44A19223D8400405325 /* PBXTargetDependency */,
+			);
+			name = GodzillaTests;
+			productName = GodzillaTests;
+			productReference = 9E43B44419223D8400405325 /* GodzillaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E43B41B19223D8300405325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jld;
+				TargetAttributes = {
+					9E43B44319223D8400405325 = {
+						TestTargetID = 9E43B42219223D8300405325;
+					};
+				};
+			};
+			buildConfigurationList = 9E43B41E19223D8300405325 /* Build configuration list for PBXProject "Godzilla" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E43B41A19223D8300405325;
+			productRefGroup = 9E43B42419223D8300405325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E43B42219223D8300405325 /* Godzilla */,
+				9E43B44319223D8400405325 /* GodzillaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E43B42119223D8300405325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E43B45D19223D9900405325 /* godzilla.mp3 in Resources */,
+				9E43B43F19223D8400405325 /* Images.xcassets in Resources */,
+				9E43B45E19223D9900405325 /* godzilla.png in Resources */,
+				9E43B43119223D8400405325 /* InfoPlist.strings in Resources */,
+				9E43B43A19223D8400405325 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E43B44219223D8400405325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E43B45019223D8400405325 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E43B41F19223D8300405325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E43B43D19223D8400405325 /* ViewController.m in Sources */,
+				9E43B43719223D8400405325 /* AppDelegate.m in Sources */,
+				9E43B43319223D8400405325 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E43B44019223D8400405325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E43B45219223D8400405325 /* GodzillaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E43B44A19223D8400405325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E43B42219223D8300405325 /* Godzilla */;
+			targetProxy = 9E43B44919223D8400405325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E43B42F19223D8400405325 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E43B43019223D8400405325 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E43B43819223D8400405325 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E43B43919223D8400405325 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E43B44E19223D8400405325 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E43B44F19223D8400405325 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E43B45319223D8400405325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E43B45419223D8400405325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E43B45619223D8400405325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Godzilla/Godzilla-Prefix.pch";
+				INFOPLIST_FILE = "Godzilla/Godzilla-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E43B45719223D8400405325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Godzilla/Godzilla-Prefix.pch";
+				INFOPLIST_FILE = "Godzilla/Godzilla-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9E43B45919223D8400405325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Godzilla.app/Godzilla";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Godzilla/Godzilla-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GodzillaTests/GodzillaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9E43B45A19223D8400405325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Godzilla.app/Godzilla";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Godzilla/Godzilla-Prefix.pch";
+				INFOPLIST_FILE = "GodzillaTests/GodzillaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E43B41E19223D8300405325 /* Build configuration list for PBXProject "Godzilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E43B45319223D8400405325 /* Debug */,
+				9E43B45419223D8400405325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E43B45519223D8400405325 /* Build configuration list for PBXNativeTarget "Godzilla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E43B45619223D8400405325 /* Debug */,
+				9E43B45719223D8400405325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E43B45819223D8400405325 /* Build configuration list for PBXNativeTarget "GodzillaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E43B45919223D8400405325 /* Debug */,
+				9E43B45A19223D8400405325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E43B41B19223D8300405325 /* Project object */;
+}
